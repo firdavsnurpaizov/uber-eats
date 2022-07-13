@@ -1,0 +1,49 @@
+.menu {
+  a {
+    text-decoration: none;
+  }
+  .container {
+    padding: 0;
+  }
+
+  padding: 93px 0 142px 0;
+
+  .col-6 {
+    padding: 0;
+  }
+  &-item {
+    width: 470px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+  }
+  &-item:hover {
+    background-color: #fafafa;
+  }
+  .menu-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #1d1d1d;
+  }
+  .menu-category {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 56px;
+    color: #626262;
+  }
+  .menu-distance {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+    color: #1d1d1d;
+  }
+}

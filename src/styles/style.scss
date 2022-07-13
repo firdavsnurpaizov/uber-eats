@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+@import './header.scss';
+@import './menu.scss';
+@import './footer.scss';
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container {
+    max-width: 956px;
+    margin: 0 auto;
+}
