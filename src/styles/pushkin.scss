@@ -1,0 +1,57 @@
+.intro {
+  background-image: url("./../assets/pushkin-photo/intro-photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 364px;
+//   position: relative;
+  display: flex;
+  align-items: center;
+
+  &-title {
+    max-width: 389px;
+    height: 204px;
+    background: #ffffff;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    padding: 38px;
+  }
+  &-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 54px;
+    color: #1d1d1d;
+  }
+  &-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-category {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+  }
+  &-distance-time {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    width: 97px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #262626;
+    border-radius: 16px;
+
+    color: #ffffff;
+  }
+}
