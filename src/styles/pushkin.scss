@@ -7,13 +7,18 @@
   display: flex;
   align-items: center;
 
+  .container {
+    padding: 0;
+  }
+
   &-title {
-    max-width: 389px;
+    // max-width: 418px;
+    max-width: 386px;
     height: 204px;
     background: #ffffff;
     box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
     border-radius: 2px;
-    padding: 38px;
+    padding: 38px 32px 38px 38px;
   }
   &-heading {
     font-family: "Roboto";
