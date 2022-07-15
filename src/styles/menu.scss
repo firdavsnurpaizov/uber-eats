@@ -1,18 +1,17 @@
 .menu {
+  padding: 93px 0 142px 0;
+
   a {
     text-decoration: none;
   }
   .container {
     padding: 0;
   }
-
-  padding: 93px 0 142px 0;
-
   .col-6 {
     padding: 0;
   }
   &-item {
-    width: 470px;
+    max-width: 470px;
     border: 1px solid rgba(117, 117, 117, 0.2);
     border-radius: 2px;
   }
@@ -47,3 +46,16 @@
     color: #1d1d1d;
   }
 }
+
+@media screen and (max-width: 992px) {
+    .menu {
+      padding: 30px 8px;
+
+      .row-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+
+  }

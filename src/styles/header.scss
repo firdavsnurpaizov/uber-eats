@@ -33,3 +33,17 @@
     color: #1d1d1d;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding: 16px 8px 16px 8px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    &-btn {
+      width: 72px;
+    }
+  }
+}
