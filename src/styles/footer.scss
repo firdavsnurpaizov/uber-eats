@@ -1,4 +1,4 @@
-footer {
+.footer {
   padding: 67px 0 53px 0;
   background-color: #262626;
 
@@ -20,5 +20,10 @@ footer {
     color: #ffffff;
     margin: 0;
   }
+}
 
+@media screen and (max-width: 992px) {
+  .footer {
+    padding: 67px 8px 53px 8px;
+  }
 }

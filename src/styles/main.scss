@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 33px;
-    width: 470px;
+    max-width: 470px;
     height: 161px;
     border: 1px solid rgba(117, 117, 117, 0.2);
     border-radius: 2px;
@@ -142,4 +142,14 @@
     }
   }
 >>>>>>> 2b6bfa7 (finish)
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    padding: 30px 8px 30px 8px;
+    
+    // .row {
+    //   flex-direction: column;
+    // }
+  }
 }
