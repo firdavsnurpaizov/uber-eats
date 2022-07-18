@@ -7,6 +7,10 @@
   .container {
     padding: 0;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93e0adb2f647081ef89d42bc4afca07915fd5a2e
   .col-6 {
     padding: 0;
   }
@@ -48,6 +52,7 @@
 }
 
 @media screen and (max-width: 992px) {
+<<<<<<< HEAD
     .menu {
       padding: 30px 8px;
 
@@ -59,3 +64,22 @@
     }
 
   }
+=======
+  .menu {
+    padding: 0;
+  }
+  .div {
+    width: 50%;
+  }
+  .row-wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .div {
+    width: 70%;
+  }
+}
+>>>>>>> 93e0adb2f647081ef89d42bc4afca07915fd5a2e
