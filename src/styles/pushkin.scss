@@ -13,8 +13,8 @@
   }
 
   &-title {
-    // max-width: 418px;
-    max-width: 386px;
+    max-width: 412px;
+    // max-width: 386px;
     height: 204px;
     background: #ffffff;
     box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
@@ -25,7 +25,8 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    // font-size: 36px;
+    font-size: clamp(24px, 4vw, 36px);
     line-height: 42px;
     margin-bottom: 54px;
     color: #1d1d1d;
@@ -72,17 +73,35 @@
 
 @media screen and (max-width: 769px) {
   .intro {
+    height: 255px;
     background-image: url("./../assets/pushkin-photo/mobile-intro-photo.png");
-
+    &-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .container {
       padding: 0 8px;
     }
+
+    &-heading {
+      margin: 0;
+    }
+    &-description {
+      flex-direction: column;
+      gap: 16px;
+    }
+
+
     &-title {
+      justify-content: space-between;
       max-width: unset;
       position: absolute;
-      top: 40px;
+      top: 3px;
       left: 8px;
       right: 8px;
+      padding: 18px 29px 47px 25px;
     }
   }
 }

@@ -7,7 +7,7 @@
     // justify-content: space-between;
     width: 100%;
     margin-left: -3px;
-    gap: 15px;
+    gap: 16px;
   }
   &-heading {
     font-family: "Roboto";
@@ -23,7 +23,7 @@
     justify-content: space-between;
     margin-bottom: 33px;
     width: 470px;
-    max-height: 161px;
+    height: 161px;
     border: 1px solid rgba(117, 117, 117, 0.2);
     border-radius: 2px;
     padding: 0;
@@ -85,6 +85,10 @@
 
     &-wrapper {
       align-items: center;
+      justify-content: center;
+    }
+    &-heading {
+      text-align: center;
     }
   }
 }
@@ -92,26 +96,31 @@
 @media screen and (max-width: 769px) {
   .main {
     &-item {
+      height: 102px;
+      margin: 0;
       border: none;
       text-align: left;
       border-bottom: 1px solid rgba(117, 117, 117, 0.2);
-      
+      &__description {
+        padding: 0;
+      }
+
       &__heading {
-      margin-bottom: 4px;
-      font-size: 14px;
-      line-height: 24px;
-      width: 173px;
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: 24px;
+        width: 173px;
+      }
+
+      &__structure {
+        font-size: 13px;
+        line-height: 21px;
+        margin-bottom: 16px;
+        opacity: 1;
+      }
     }
-    
-    &__structure {
-      font-size: 13px;
-      line-height: 21px;
-      margin-bottom: 16px;
-      opacity: 1;
-    }
-   
-  }
     img {
+      border-radius: 2px;
       width: 102px;
       height: 102px;
     }
