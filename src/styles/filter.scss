@@ -18,8 +18,29 @@
     &-item + &-item {
       margin-left: 40px;
     }
-    &-item:first-child {
-      color: #327430;
+  }
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+input:checked + label {
+  color: #327430;
+}
+
+@media screen and (max-width: 992px) {
+    .filter {
+      padding: 0 8px;
+
+      &-menu {
+        justify-content: center;
+      }
     }
+}
+
+@media screen and (max-width: 769px) {
+  .filter {
+    display: none;
   }
 }
